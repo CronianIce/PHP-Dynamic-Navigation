@@ -6,7 +6,7 @@ This template provides a minimal structure for single page PHP-based site naviga
 
 Page content is loaded via GET in URI parameters. For example, the `index.php` page has a variable `$page` which stores the GET parameter `page` so that if your URI is `index.php?page=home`, then it would fetch content associated with the value `home`. Content is fetched by using the [include function](http://php.net/manual/en/function.include.php) after a conditional check is made to the `$page` variable.
 
-###!! WARNING !!
+### !! WARNING !!
 
 + **DO NOT** use relative URIs
 + **DO** use predefined paths
